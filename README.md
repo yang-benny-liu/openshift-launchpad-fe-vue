@@ -38,7 +38,7 @@ For the most part, we follow the Vue CLI scaffold as it is presented. However, w
 
 ## Configuration
 
-This frontend will require some configuration. The API it invokes will be locked down and require a valid JWT Token to access. We will need to configure the application to authenticate using the same Keycloak realm as its associated app. Note that the Vue Skeleton frontend is currently designed to expect all associated resources to be relative to the original access path.
+This frontend will require some configuration. The API it invokes will be locked down and require a valid JWT Token to access. We will need to configure the application to authenticate using the same Keycloak realm as its associated app. Note that this frontend is currently designed to expect all associated resources to be relative to the original access path.
 
 ## Super Quickstart
 
