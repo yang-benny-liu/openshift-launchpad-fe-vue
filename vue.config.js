@@ -4,6 +4,6 @@ module.exports = {
     'vuetify'
   ],
   devServer: {
-    disableHostCheck: true
+    disableHostCheck: true,
   }
 };
