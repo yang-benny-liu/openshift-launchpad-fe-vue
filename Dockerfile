@@ -4,5 +4,5 @@ ENV NO_UPDATE_NOTIFIER=true
 WORKDIR ${APP_ROOT}
 COPY . .
 RUN npm install && npm run build
-EXPOSE 8081
+EXPOSE 8080
 CMD ["npm", "run", "serve"]
